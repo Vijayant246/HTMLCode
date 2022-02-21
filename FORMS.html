@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h2>This is HTML Form tutorial</h2>
+    <form action="data.txt">
+        <label for="name">
+            <div>
+                NAME : <input type="text" name="my name" placeholder="NAME" id="name">
+            </div>
+        </label>
+        <br>
+        <label for="ph">
+            <div>
+                PHONE NO : <input type="text" name="my phone no" placeholder="PHONE NO" id="ph">
+            </div>
+        </label>
+        <br>
+        <div>
+            GENDER: MALE <input type="radio" name="my gender"> FEMALE <input type="radio" name="my gender"> OTHER<input
+                type="radio" name="my gender">
+        </div>
+        <br>
+        <label for="age">
+            <div>
+                AGE : <input type="text" name="myage" placeholder="AGE" id="age">
+            </div>
+        </label>
+        <br>
+        <label for="dob">
+            <div>
+                DOB : <input type="date" name="myDOB" placeholder="DOB" id="dob">
+            </div>
+        </label>
+        <br>
+        <div>
+            EMAIL: <input type="email" placeholder="EMAIL" name="myemail">
+        </div>
+        <br>
+        <label for="join">
+            <div>
+                JOINING DATE: <input type="date" name="myjoining" id="join">
+            </div>
+        </label>
+        <br>
+        <div>
+            MESSAGE: <br> <textarea type="text" cols="60" rows="10" name="your intro" placeholder="MESSAGE"></textarea>
+        </div>
+        <div>
+            I am not a robot <input type="checkbox" name="robot"> <span> <img src="captcha.jpg" height="50"> </span>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+    <hr style="border: solid pink;">
+    <form>
+        <input type="file">
+        <input type="password" placeholder="password">
+        <input type="url" placeholder="URL">
+        <input type="week">
+        <input type="hidden">
+        <input type="month">
+        Points (between 0 and 20)
+        <input type="range" name="points" min="0" max="20">
+        <span id="rbvalue"> 1</span>
+    </form>
+</body>
+
+</html>
