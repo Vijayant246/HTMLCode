@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon"
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgj2cly7bQv7hYgkrg4ys5iwFubKjkTGjlUQ&usqp=CAU">
-    <link rel="stylesheet" href="Tags.css">
     <title>Tags</title>
     <style>
         #disk_e {
             width: 5cm;
             height: 0.5cm;
         }
-        #file{
+
+        #file {
             width: 5cm;
             height: 0.5cm;
             shape-rendering: square;
@@ -128,16 +128,17 @@
         <p>I have a date on <time datetime="2022-02-14 20:00">Valentines day</time>.</p>
     </div>
     <form action="">
-    <div>
-        <h1>BUTTON</h1>
-        <button type="button">Click Me!</button>
-    </div>
-    <div>
-        <h1>PROGRESS</h1>
-        <label for="file">Downloading progress:</label>
-        <progress id="file" value="67" max="100"> 32% </progress>
+        <div>
+            <h1>BUTTON</h1>
+            <button type="button">Click Me!</button>
+        </div>
+        <div>
+            <h1>PROGRESS</h1>
+            <label for="file">Downloading progress:</label>
+            <progress id="file" value="67" max="100"> 32% </progress>
 
-    </div>
+        </div>
+    </form>
     <div>
         <h1>METER</h1>
         <label for="disk_c">Disk usage C:</label>
@@ -152,8 +153,21 @@
     </div>
     <div>
         <h1>IFRAME</h1>
-        <iframe src="https://in.pinterest.com"  height="600px" width=" 1200px"></iframe>
+        <iframe src="https://i.pinimg.com/originals/f4/13/44/f413446ad082c06f5f3e75b54686028e.png" height="600px"
+            width=" 1200px"></iframe>
     </div>
+    <h1>Description Tag</h1>
+    <div>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>--Black</dd>
+            <dd>--Chai</dd>
+            <dt>Prize</dt>
+            <dd>Rs. 25</dd>
+            <dd>Rs. 10</dd>
+        </dl>
+    </div>
+
 </body>
 
 </html>
